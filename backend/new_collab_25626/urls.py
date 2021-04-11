@@ -48,9 +48,9 @@ urlpatterns = [
     path("home/", include("home.urls")),
 ]
 
-admin.site.site_header = "Collab2"
-admin.site.site_title = "Collab2 Admin Portal"
-admin.site.index_title = "Collab2 Admin"
+admin.site.site_header = "New collab"
+admin.site.site_title = "New collab Admin Portal"
+admin.site.index_title = "New collab Admin"
 
 # swagger
 api_info = openapi.Info(
